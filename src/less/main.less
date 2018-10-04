@@ -1,0 +1,48 @@
+@import 'core/resolutions.less';
+@import 'core/reset.less';
+
+@import 'elements/button.less';
+
+:root{
+    --dark_color: #202124;
+    --dark_light_color: #5f6368;
+
+    --accent_color: var(--dark);
+    --second_color:  #ffffff; 
+
+    --header_font: Roboto;
+    --text_font: Roboto;
+}
+
+body{
+    background-color: #e2e2e2;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.some__buttons_block{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1px;
+}
+
+.some__container{
+    background-color: var(--dark_light_color);
+    padding: 30px;
+    color: #fff;
+
+    @media @tablet_landscape{
+        max-width: 80%;
+    }
+}
+
+
+.tab{
+    &__button{
+        margin: 0;
+
+        &:last-child{
+            border-top-right-radius: 12px;
+        }
+    }
+}

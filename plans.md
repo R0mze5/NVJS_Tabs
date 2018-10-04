@@ -1,0 +1,4 @@
+- add ability to use data of get
+- let tabDisbledClass = 'disabled';
+- autotabModule  - user for generating from array
+- add dispatch events

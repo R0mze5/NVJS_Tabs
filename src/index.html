@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+  <title>NVJS_Tabs</title>
+  <link rel="shortcut icon" href="./dist/images/favicon/favicon.ico">
+  <link href="./dist/css/main.css" rel="stylesheet">
+  <link href="./dist/css/NVJS_Tabs.css" rel="stylesheet">
+</head>
+ 
+<body>
+
+  <div class="tab__area">
+    <div class="some__buttons_block">
+      <div class="tab__button button dark_light_btn" data-target="block_1"> show block_1</div>
+      <div class="tab__button button dark_light_btn" data-target="block_2"> show block_2</div>
+      <div class="tab__button button dark_light_btn" data-target="block_3"> show block_3</div>
+    </div>
+
+    <div class="some__container">
+      <div class="tab__block" data-name="block_1">block_1 
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam neque nemo sed atque harum repellendus autem distinctio repellat vero. Quos ab voluptatum eius nobis pariatur exercitationem excepturi assumenda aut quis.</div>
+      <div class="tab__block" data-name="block_2">block_2 
+          <br>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quam eos corporis doloribus corrupti facere? Expedita sed commodi consectetur distinctio autem porro, et pariatur veniam quis atque nulla ex cumque!</div>
+      <div class="tab__block" data-name="block_3">block_3 
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia itaque accusantium, sapiente non ratione voluptatibus reprehenderit minima qui iusto adipisci modi totam, perferendis quam molestiae consequatur odit nesciunt, ad molestias.</div>
+    </div>
+                
+  </div>
+  
+
+  
+  <script src="./dist/js/NVJS_Tabs.js"></script>
+
+  <script>
+    new NVJSTabs({
+      tabButtons: '.tab__button',
+      buttonActiveClass: 'dark_btn',
+      tabBlocks: '.tab__block',
+      blockActiveClass: 'shown',
+      container: '.tab__area'
+    });
+  </script>
+</body>
+
+</html>

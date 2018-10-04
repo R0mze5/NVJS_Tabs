@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "test": "echo 1",
+    "dev": "gulp dev --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dev:clean": "gulp dev:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dev:build": "gulp dev:build --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dev:build:pages": "gulp dev:build:pages --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dev:build:css": "gulp dev:build:css --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dev:build:es": "gulp dev:build:es --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dev:build:images": "gulp dev:build:images --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist": "gulp dist --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:clean": "gulp dist:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:build": "gulp dist:build --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:build:clean": "gulp dist:build:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:build:pages": "gulp dist:build:pages --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:build:css": "gulp dist:build:css --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:build:es": "gulp dist:build:es --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "dist:build:images": "gulp dist:build:images --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile": "gulp compile --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:build": "gulp compile:build --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:clean": "gulp compile:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:build:clean": "gulp compile:build:clean --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:build:pages": "gulp compile:build:pages --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:build:css": "gulp compile:build:css --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:build:es": "gulp compile:build:es --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs",
+    "compile:build:images": "gulp compile:build:images --cwd ../../gulp/ --folder=mylibs --project=NVJS_Tabs"
+  },
+  "name": "nvjs_tabs",
+  "description": "NVJS_Tabs - is the free and responsive script, which allow create Tabs and control it",
+  "version": "1.0.0",
+  "main": "gulpConfig.js",
+  "keywords": [
+    "js Tabs"
+  ],
+  "author": "Roman.Kh@pm.me",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R0mze5/NVJS_Tabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/R0mze5/NVJS_Tabs/issues"
+  },
+  "homepage": "https://github.com/R0mze5/NVJS_Tabs#readme"
+}
